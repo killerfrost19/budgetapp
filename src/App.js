@@ -72,8 +72,8 @@ export default function App() {
             setViewExpensesModelBudgetId(UNCATEGORIZED_BUDGET_ID)
           }
         />
-
-        <TotalBudgetCard />
+        <Stack className="my-4">
+        <TotalBudgetCard /> </Stack>
       </Container>
       <AddBudgetModel
         show={showAddBudgetModel}
